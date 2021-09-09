@@ -1,0 +1,246 @@
+body{
+    background-color: rgb(0, 4, 8);
+}
+#backgroundPhoto{
+    margin: -10px 0px 0px -10px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.4;
+    visibility: visible;
+    background-size: cover;
+    -webkit-user-drag: none;
+}
+#q{
+    position: fixed;
+    color: rgb(255, 0, 43);
+    font-size: 45px;
+    font-family:  "lato";
+    margin: 20px 0px 0px 300px;
+}
+.question{
+    position: fixed;
+    color: white;
+    font-family: "lato";
+    font-size: 38px;
+    margin: 28px 0px 0px 360px;
+}
+.test{
+    position: fixed;
+    margin: 60px 0px 0px 240px ;
+    width: 65%;
+    -webkit-user-drag: none;
+}
+.answer{
+    text-align: center;
+    position: fixed;
+    font-family: "lato";
+    color: white;
+    font-size: 20px;
+    width: 280px;
+    height: 35px;
+    margin: 580px 0px 0px 543px;
+    outline: none;
+    border: none;
+    background-color: rgb(16, 36, 49);
+    box-shadow: 0px 2px 0px 0px rgb(255, 0, 34);
+    text-transform: capitalize;
+}
+.next{
+    position: fixed;
+    width: 200px;
+    height: 39px;
+    background-color: rgb(255, 0, 34);
+    margin: 580px 0px 0px 853px;
+    color: rgb(46, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    border: none;
+}
+.next:hover{
+    background-color: rgb(211, 0, 28);
+    box-shadow: 0px 0px 3px 2px rgb(255, 0, 34);
+}
+.back{
+    position: fixed;
+    width: 200px;
+    height: 39px;
+    background-color: rgb(255, 0, 34);
+    margin: 580px 0px 0px 318px;
+    color: rgb(46, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    border: none;
+}
+.back:hover{
+    background-color: rgb(211, 0, 28);
+    box-shadow: 0px 0px 3px 2px rgb(255, 0, 34);
+}
+#textOneResult{
+    position: fixed;
+    color: white;
+    font-size: 40px;
+    margin: 70px 0px 0px 390px;
+}
+#result{
+    position: fixed;
+    color: rgb(255, 0, 34);
+    font-size: 45px;
+    margin: 200px 0px 0px 650px;
+}
+#clearThings{
+    position: fixed;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    margin: 280px 0px 0px 340px;
+}
+#answerEightOne{
+    text-align: center;
+    position: fixed;
+    font-family: "lato";
+    color: white;
+    font-size: 20px;
+    width: 125px;
+    height: 35px;
+    margin: 580px 0px 0px 543px;
+    outline: none;
+    border: none;
+    background-color: rgb(16, 36, 49);
+    box-shadow: 0px 2px 0px 0px rgb(255, 0, 34);
+    text-transform: capitalize;
+}
+#answerEightTwo{
+    text-align: center;
+    position: fixed;
+    font-family: "lato";
+    color: white;
+    font-size: 20px;
+    width: 125px;
+    height: 35px;
+    margin: 580px 0px 0px 693px;
+    outline: none;
+    border: none;
+    background-color: rgb(16, 36, 49);
+    box-shadow: 0px 2px 0px 0px rgb(255, 0, 34);
+    text-transform: capitalize;
+}
+#youScored{
+    color: white;
+    position: fixed;
+    font-size: 30px;
+    margin: 150px 0px 0px 620px;
+}
+/**/
+#testThree{
+    margin: 80px 0px 0px 350px;
+    width: 45%;
+}
+#testFour{
+    margin: 80px 0px 0px 230px;
+}
+#questionFive{
+    font-size: 30px;
+}
+#testFive{
+    margin: 90px 0px 0px 230px;
+}
+#testNine{
+    margin: 90px 0px 0px 230px;
+}
+#testSix{
+    margin: 75px 0px 0px 230px;
+}
+#testSeven{
+    margin: 75px 0px 0px 230px;
+}
+#testOne{
+    margin: 76px 0px 0px 230px;
+}
+#answerFifteen{
+    text-transform: lowercase;
+}
+#testTwo{
+    margin: 80px 0px 0px 245px;
+}
+#testTen{
+    margin: 75px 0px 0px 245px;
+}
+#testEleven{
+    margin: 75px 0px 0px 240px;
+}
+#testTwelve{
+    margin: 75px 0px 0px 227px;
+}
+#testThirteen{
+    margin: 75px 0px 0px 242px;
+}
+#testFourteen{
+    margin: 75px 0px 0px 242px;
+}
+#testFifteen{
+    margin: 75px 0px 0px 242px;
+}
+#testOneT{
+    position: fixed;
+    visibility: visible;
+}
+#resultT{
+    position: fixed;
+    visibility: hidden;
+}
+#testTwoT{
+    position: fixed;
+    visibility: hidden;
+}
+#testThreeT{
+    position: fixed;
+    visibility: hidden;
+}
+#testFourT{
+    position: fixed;
+    visibility: hidden;
+}
+#testFiveT{
+    position: fixed;
+    visibility: hidden;
+}
+#testSixT{
+    position: fixed;
+    visibility: hidden;
+}
+#testSevenT{
+    position: fixed;
+    visibility: hidden;
+}
+#testEightT{
+    position: fixed;
+    visibility: hidden;
+}
+#testNineT{
+    position: fixed;
+    visibility: hidden;
+}
+#testTenT{
+    position: fixed;
+    visibility: hidden;
+}
+#testElevenT{
+    position: fixed;
+    visibility: hidden;
+}
+#testTwelveT{
+    position: fixed;
+    visibility: hidden;
+}
+#testThirteenT{
+    position: fixed;
+    visibility: hidden;
+}
+#testFourteenT{
+    position: fixed;
+    visibility: hidden;
+}
+#testFifteenT{
+    position: fixed;
+    visibility: hidden;
+}
