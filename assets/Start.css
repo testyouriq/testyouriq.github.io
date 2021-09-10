@@ -11,6 +11,7 @@ body{
 #backgroundPhone{
     position: fixed;
     visibility: hidden;
+    width: 100%;
 }
 #title {
     position: absolute;
