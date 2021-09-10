@@ -320,11 +320,11 @@ body{
         width: 100%;
     }
     #answerEightOne{
-        margin: 245px 0px 0px 10px;
+        margin: 255px 0px 0px 10px;
         width: 150px;
     }
     #answerEightTwo{
-        margin: 245px 0px 0px 170px;
+        margin: 255px 0px 0px 170px;
         width: 150px;
     }
     #testNine{
@@ -379,15 +379,15 @@ body{
         font-size: 15px;
     }
     .answer{
-        margin: 230px 0px 0px 10px;
+        margin: 250px 0px 0px 10px;
         width: 310px;
     }
     .next{
-        margin: 290px 0px 0px 225px;
+        margin: 300px 0px 0px 225px;
         width: 100px;
     }
     .back{
-        margin: 290px 0px 0px 10px;
+        margin: 300px 0px 0px 10px;
         width: 100px;
     }
 }
