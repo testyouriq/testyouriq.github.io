@@ -247,8 +247,10 @@ body{
 
 
 #testBackground{
+    width: 100%;
     position: fixed;
     visibility: hidden;
+    
 }
 #iqstatics{
     position: fixed;
