@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Your IQ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="test.css" rel="stylesheet">
+        <link rel="icon" href="images/icon.png" >
+    </head>
+    <body>
+                <img id="backgroundPhoto" src="images/background.jpg">
+                <img id="testBackground" src="images/testBackground.png">
+                <span id="q">Q.</span>
+            <!--Test One-->
+            <div id="testOneT">
+                <p class="question" id="questionOne">which form fit in the red question mark ?</p>
+                <img class="test" id="testOne" src="images/test1.png" >
+                <input maxlength="1" type="text" autocomplete="off" class="answer" id="answerOne" placeholder="A , B , C">
+                <button class="next" onclick="checkAnswerOne()" id="nextOne">Next</button>
+                <button class="back" onclick="backToStart()" id="backOne">Back</button>
+            </div>
+            <!--Test Two-->
+            <div id="testTwoT">
+                <p class="question" id="questionTwo">Which 3 numbers would fit in the table ?</p>
+                <img class="test" id="testTwo" src="images/test2.png" >
+                <input maxlength="1" type="text" autocomplete="off" class="answer" id="answerTwo" placeholder="A , B , C">
+                <button class="next" onclick="checkAnswerTwo()" id="nextTwo">Next</button>
+                <button class="back" onclick="backTwo()" id="backTwo">Back</button>
+            </div>
+            <!--Test Three-->
+            <div id="testThreeT">
+                <p class="question" id="questionThree">Which form is not welcome between these 4 ?</p>
+                <img class="test" id="testThree" src="images/test3.png" >
+                <input maxlength="1" type="text" autocomplete="off" class="answer" id="answerThree" placeholder="A , B , C , D">
+                <button class="next" onclick="checkAnswerThree()" id="nextThree">Next</button>
+                <button class="back" onclick="backThree()" id="backThree">Back</button>
+            </div>
+            <!--Test Four-->
+            <div id="testFourT">
+                <p class="question" id="questionFour">Which letter does not belong to the group ?</p>
+                <img class="test" id="testFour" src="images/test4.png" >
+                <input maxlength="1" type="text" autocomplete="off" class="answer" id="answerFour" placeholder="P , T , G , J , B">
+                <button class="next" onclick="checkAnswerFour()" id="nextFour">Next</button>
+                <button class="back" onclick="backFour()" id="backFour">Back</button>
+            </div>
+            <!--Test Five-->
+            <div id="testFiveT">
+                <p class="question" id="questionFive">How many cakes can be done in 1 hour and 30 minutes ?</p>
+                <img class="test" id="testFive" src="images/test5.png" >
+                <input maxlength="1" type="text" autocomplete="off" class="answer" id="answerFive" placeholder="A , B , C , D">
+                <button class="next" onclick="checkAnswerFive()" id="nextFive">Next</button>
+                <button class="back" onclick="backFive()" id="backFive">Back</button>
+            </div>
+            <!--Test Six-->
+            <div id="testSixT">
+                <p class="question" id="questionSix">What number goes in the question mark ?</p>
+                <img class="test" id="testSix" src="images/test6.png">
+                <input maxlength="50" type="number" autocomplete="off" class="answer" id="answerSix" placeholder="Answer">
+                <button class="next" onclick="checkAnswerSix()" id="nextSix">Next</button>
+                <button class="back" onclick="backSix()" id="backSix">Back</button>
+            </div>
+            <!--Test Seven-->
+            <div id="testSevenT">
+                <p class="question" id="questionSeven">What number goes in the question mark ?</p>
+                <img class="test" id="testSeven" src="images/test7.png">
+                <input maxlength="50" type="number" autocomplete="off" class="answer" id="answerSeven" placeholder="Answer">
+                <button class="next" onclick="checkAnswerSeven()" id="nextSeven">Next</button>
+                <button class="back" onclick="backSeven()" id="backSeven">Back</button>
+            </div>
+            <!--Test Eight-->
+            <div id="testEightT">
+                <p class="question" id="questionEight">Which two diamonds are the fake ones ?</p>
+                <img class="test" id="testEight" src="images/test8.png">
+                <input maxlength="1" type="number" autocomplete="off" class="answer" id="answerEightOne" placeholder="1st">
+                <input maxlength="1" type="number" autocomplete="off" class="answer" id="answerEightTwo" placeholder="2nd">
+                <button class="next" onclick="checkAnswerEight()" id="nextEight">Next</button>
+                <button class="back" onclick="backEight()" id="backEight">Back</button>
+            </div>
+            <!--Test Nine-->
+            <div id="testNineT">
+                <p class="question" id="questionNine">Which number fit in the question mark ?</p>
+                <img class="test" id="testNine" src="images/test9.png">
+                <input maxlength="1" type="number" autocomplete="off" class="answer" id="answerNine" placeholder="Answer">
+                <button class="next" onclick="checkAnswerNine()" id="nextNine">Next</button>
+                <button class="back" onclick="backNine()" id="backNine">Back</button>
+            </div>
+            <!--Test Ten-->
+            <div id="testTenT">
+                <p class="question" id="questionTen">Which number fit in the question mark ?</p>
+                <img class="test" id="testTen" src="images/test10.png">
+                <input maxlength="1" type="number" autocomplete="off" class="answer" id="answerTen" placeholder="Answer">
+                <button class="next" onclick="checkAnswerTen()" id="nextTen">Next</button>
+                <button class="back" onclick="backTen()" id="backTen">Back</button>
+            </div>
+            <!--Hard Starts From Here-->
+            <!--Test Eleven-->
+            <div id="testElevenT">
+                <p class="question" id="questionEleven">Which number goes in the question mark ?</p>
+                <img class="test" id="testEleven" src="images/test11.png">
+                <input maxlength="1" type="number" autocomplete="off" class="answer" id="answerEleven" placeholder="Answer">
+                <button class="next" onclick="checkAnswerEleven()" id="nextEleven">Next</button>
+                <button class="back" onclick="backEleven()" id="backEleven">Back</button>
+            </div>
+            <!--Test Twelve-->
+            <div id="testTwelveT">
+                <p class="question" id="questionTwelve">Which number goes in the question mark ?</p>
+                <img class="test" id="testTwelve" src="images/test12.png">
+                <input maxlength="1" type="number" autocomplete="off" class="answer" id="answerTwelve" placeholder="Answer">
+                <button class="next" onclick="checkAnswerTwelve()" id="nextTwelve">Next</button>
+                <button class="back" onclick="backTwelve()" id="backTwelve">Back</button>
+            </div>
+            <!--Test Thirteen-->
+            <div id="testThirteenT">
+                <p class="question" id="questionThirteen">Which number goes in the question mark ?</p>
+                <img class="test" id="testThirteen" src="images/test13.png">
+                <input maxlength="1" type="number" autocomplete="off" class="answer" id="answerThirteen" placeholder="Answer">
+                <button class="next" onclick="checkAnswerThirteen()" id="nextThirteen">Next</button>
+                <button class="back" onclick="backThirteen()" id="backThirteen">Back</button>
+            </div>
+            <!--Test Fourteen-->
+            <div id="testFourteenT">
+                <p class="question" id="questionFourteen">Which number goes in the question mark ?</p>
+                <img class="test" id="testFourteen" src="images/test14.png">
+                <input maxlength="1" type="number" autocomplete="off" class="answer" id="answerFourteen" placeholder="Answer">
+                <button class="next" onclick="checkAnswerFourteen()" id="nextFourteen">Next</button>
+                <button class="back" onclick="backFourteen()" id="backFourteen">Back</button>
+            </div>
+            <!--Test Fifteen-->
+            <div id="testFifteenT">
+                <p class="question" id="questionFifteen">Find the meaning of this ?</p>
+                <img class="test" id="testFifteen" src="images/test15.png">
+                <input maxlength="50" type="text" autocomplete="off" class="answer" id="answerFifteen" placeholder="Answer">
+                <button class="next" onclick="checkAnswerFifteen()" id="nextFifteen">Next</button>
+                <button class="back" onclick="backFifteen()" id="backFifteen">Back</button>
+            </div>
+        <!--Result-->
+            <div id="resultT">
+                <p id="textOneResult">Congratulations for finishing the test !</p>
+                <p id="youScored">Your score</p>
+                <span id="result">0</span>
+                <p id="clearThings">The hightest iq could be scored in this test is 170, and please remember<br>this test is not accurate and the purpose for it is nothing<br>but to have fun, and test your knowledge on this type of questions. </p>
+                <img id="iqstatics" src="images/iqstatics.jpg" >
+            </div>
+        <!--JavaScript-->
+        <script src="test.js" ></script>
+    </body>
+</html>
